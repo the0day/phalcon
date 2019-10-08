@@ -1,0 +1,13 @@
+paths:
+    migrations: '/var/www/users/database/migrations'
+    seeds: '/var/www/users/database/seeds'
+
+environments:
+    default_migration_table: migrations
+    default_database: production
+    production:
+        adapter: sqlite
+        name: /var/www/users/database/sqlite
+        suffix: ".db"
+
+version_order: creation

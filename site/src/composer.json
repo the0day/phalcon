@@ -1,0 +1,5 @@
+{
+    "require": {
+        "foglcz/jsonrpc2": "^1.2"
+    }
+}
